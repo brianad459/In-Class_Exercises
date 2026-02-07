@@ -16,7 +16,7 @@ public class CreditCards extends PaymentMethod {
 		}
 		else {
 			double purchase = amount - creditLimit ;
-			super.totalTransactions++;
+			totalTransactions++;
 		}
 		
 	}
