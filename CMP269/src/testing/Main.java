@@ -18,7 +18,7 @@ public class Main {
 			p.processPayment(50.0);
 		}
 		
-		System.out.println("Total Transactions: "+ PaymentMethod.totalTransactions);
+		System.out.println("Total Transaction: "+ PaymentMethod.totalTransactions);
 		
 	}
 
